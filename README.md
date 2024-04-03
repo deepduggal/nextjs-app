@@ -1,6 +1,9 @@
-# About
-Next.js practice app
+## About nextjs-app
+This is my Next.js practice app.
 
+Components:
+- Counter - Increment, decrement, or reset, a counter.
+- UserForm - A stateful form to get the user's name.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
