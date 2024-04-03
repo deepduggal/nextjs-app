@@ -1,9 +1,8 @@
 'use client';
+import 'Header.css';
 
-function Header() {
+export default function Header() {
   return (
-    <div>Header</div>
+    <header> <a href="/">Home</a><a href="/about">About</a></header>
   )
 }
-
-export default Header;
