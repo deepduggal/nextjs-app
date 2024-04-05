@@ -14,8 +14,10 @@ export default function StarWarsCharacter() {
       try {
         const response = await fetch('https://swapi.dev/api/people/1');
         const data = await response.json();
+        
+        // Handle bad response
         if (!response.ok) {
-          setError(data.detail);
+          setError(data?.detail ?? 'Error fetching data');
         }
         else {
           setData(data);

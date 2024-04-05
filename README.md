@@ -4,6 +4,9 @@ This is my Next.js practice app.
 Components:
 - Counter - Increment, decrement, or reset, a counter.
 - UserForm - A stateful form to get the user's name.
+- UserProfile - View a user's name, bio, and hobbies.
+- StarWarsCharacter - Gets the name of a star wars character (Luke) from SWAPI.
+- Header - A header with page navigation.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
